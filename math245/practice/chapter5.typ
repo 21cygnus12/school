@@ -66,4 +66,23 @@ $(n^2-3n+2)/2$ is an integer.
 In both possible cases, we have shown that $(n^2-3n+2)/2$ is an integer. $square$
 === 5.5
 Let $n in ZZ$. We want to prove that $(n(n-1)(n-2))/3$ is an integer. To do this we will use the division
-algorithm satisfying $n=3q+r$
+algorithm satisfying $n=3q+r$. It follows that $0<=r<3$. I will show cases.
+==== Case $r=0$:
+By substitution we have $((3q+0)((3q+0)-1)((3q+0)-2))/3$
+$ ((3q)(3q-1)(3q-2))/3 $
+$ (q)(3q-1)(3q-2) $
+Since $ZZ$ is closed under addition and multiplication, we know $q(3q-1)(3q-2) in ZZ$.
+==== Case $r=1$:
+By substitution we have $((3q+1)((3q+1)-1)((3q+1)-2))/3$
+$ ((3q+1)(3q)(3q-1))/3 $
+$ (3q+2)(3q+1)(q) $
+Since $ZZ$ is closed under addition and multiplication, we know $(3q+2)(3q+1)(q) in ZZ$.
+==== Case $r=2$:
+By substitution we have $((3q+2)((3q+2)-1)((3q+2)-2))/3$
+$ ((3q+2)(3q+1)(3q))/3 $
+$ (3q+2)(3q+1)(q) $
+Since $ZZ$ is closed under addition and multiplication, we know $(3q+2)(3q+1)(q) in ZZ$.
+
+In all cases $(n(n-1)(n-2))/3 in ZZ$, as desired. $square$
+=== 5.6
+Fix $x in RR$.
