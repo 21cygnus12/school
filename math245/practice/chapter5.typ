@@ -86,3 +86,35 @@ Since $ZZ$ is closed under addition and multiplication, we know $(3q+2)(3q+1)(q)
 In all cases $(n(n-1)(n-2))/3 in ZZ$, as desired. $square$
 === 5.6
 Fix $x in RR$.
+$ |x-1|+|x+1|>=2 $
+==== Case $x>=1$
+$ |x-1|+|x+1| $
+$ x-1+x+1 $
+$ 2x>=2 $
+==== Case $x<=-1$
+$ |x-1|+|x+1| $
+$ -(x-1)-(x+1) $
+$ -x+1-x-1 $
+$ -2x>=2 $
+==== Case $-1<=x<=1$
+$ |x-1|+|x+1| $
+$ -(x-1)+(x+1) $
+$ -x+1+x+1 $
+$ 2>=2 $
+=== 5.7
+=== 5.8
+By way of contradiction, assume $sqrt(3)$ is rational. This means
+$exists a,b in ZZ,sqrt(3)=a/b,b!=0$. If we square both sides we're left
+with $3=a^2/b^2$. Since $b^2 in ZZ$ and $b divides sqrt(3)$, this means
+that $3$ is a composite number, which contradicts the reality of $3$ being
+prime.
+=== 5.9
+=== 5.10
+=== 5.11
+Fix $w,x,y,z in NN$.
+$ a:w/x=y/z $
+$ b:(w z-x y)/(w z)=0 $
+$ c:w z-x y=0 $
+$ d:w/y=x/z $
+=== 5.12
+Fix an even $n in ZZ$. 
